@@ -1,0 +1,81 @@
+body {
+    background-color: rgb(35, 35, 35);
+}
+
+.main {  
+    padding-top: 3px;
+    border-radius: 5px;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    color: grey;
+
+}
+
+  
+.section {
+    background-color: rgb(30, 30, 30);
+    display: flex;   
+    border-radius: 5px;
+    
+    border: 1px solid rgba(229, 231, 235, 0.5);
+
+    img {
+        height: 50px;
+        width: 50px;
+        border-radius: 10px;
+        margin: 5px;
+        object-fit: fill;
+
+    }
+    a {
+        text-decoration: none;
+        font-weight: bold;
+        font-size: xx-small;
+        margin-top: 5px;
+        color: rgb(142, 212, 142);
+        background-color: rgb(66, 97, 66);
+        height: fit-content;
+        border-radius: 5px;
+        padding-left: 5px;
+        padding-right: 5px;
+        padding-top: 1px;
+        padding-bottom: 1px;
+       
+    }
+     a:hover {
+            background-color: inherit;
+        }
+
+        h3 {
+            color: rgb(178, 167, 251);
+            margin: 3px;
+            margin-bottom: 0px;
+            font-size: 24px;
+            padding-bottom: 0px;
+        }
+}
+
+.typing {
+  font-family: monospace;
+  color: rgb(97, 76, 236);
+  overflow: hidden;
+  white-space: nowrap;
+  border-right: 2px solid black;
+  width: 0;
+  animation: typing 4s steps(20, end) infinite, blink 0.7s step-end infinite;
+  margin-top: 0px;
+  padding-top: 0px;
+  
+}
+
+@keyframes typing {
+  0% { width: 0; }
+  50% { width: 20ch; }
+  100% { width: 0; }
+}
+
+@keyframes blink {
+  from, to { border-color: transparent; }
+  50% { border-color: black; }
+}
