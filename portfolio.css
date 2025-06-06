@@ -31,7 +31,7 @@ body {
     a {
         text-decoration: none;
         font-weight: bold;
-        font-size: xx-small;
+        font-size: x-small;
         margin-top: 5px;
         color: rgb(142, 212, 142);
         background-color: rgb(66, 97, 66);
@@ -41,6 +41,7 @@ body {
         padding-right: 5px;
         padding-top: 1px;
         padding-bottom: 1px;
+        
        
     }
      a:hover {
@@ -53,6 +54,8 @@ body {
             margin-bottom: 0px;
             font-size: 24px;
             padding-bottom: 0px;
+            text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+            
         }
 }
 
@@ -66,7 +69,7 @@ body {
   animation: typing 4s steps(20, end) infinite, blink 0.7s step-end infinite;
   margin-top: 0px;
   padding-top: 0px;
-  
+  text-shadow: 1px 1px 2px black, 0 0 25px rgb(97, 76, 236), 0 0 5px darkblue;
 }
 
 @keyframes typing {
